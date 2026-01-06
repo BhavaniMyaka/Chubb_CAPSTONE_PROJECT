@@ -1,0 +1,240 @@
+[2025-12-31T10:48:28.797+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:48:28.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:48:28.809+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:28.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:48:28.920+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:28.918+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:48:28.927+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:48:29.468+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.466+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:48:29.534+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.533+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:48:29.573+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.572+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:48:29.580+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.579+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:48:29.646+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.645+0000] {dag.py:3058} INFO - Creating ORM DAG for co2_emissions_databricks_etl
+[2025-12-31T10:48:29.710+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:48:29.710+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:48:29.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 1.011 seconds
+[2025-12-31T10:49:00.164+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:00.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:49:00.176+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:00.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:00.255+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:00.254+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:49:00.265+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:00.368+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:00.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:49:00.445+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:00.444+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:49:00.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.369 seconds
+[2025-12-31T10:49:30.896+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:30.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:49:30.900+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:30.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:30.964+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:30.964+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:49:30.967+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:49:31.004+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:31.004+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:49:31.034+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:49:31.034+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:49:31.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.168 seconds
+[2025-12-31T10:50:01.136+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:50:01.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:50:01.139+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:50:01.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:50:01.159+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:50:01.159+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:50:01.162+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:50:01.192+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:50:01.192+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:50:01.217+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:50:01.216+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:50:01.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.111 seconds
+[2025-12-31T10:52:37.442+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:52:37.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:52:37.450+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:52:37.506+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.505+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:52:37.512+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:52:37.769+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.768+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:52:37.795+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.795+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:52:37.816+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.815+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:co2_emissions_databricks_etl
+[2025-12-31T10:52:37.818+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.817+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:52:37.844+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.843+0000] {dag.py:3058} INFO - Creating ORM DAG for co2_emissions_databricks_etl
+[2025-12-31T10:52:37.875+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:52:37.874+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:52:37.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.498 seconds
+[2025-12-31T10:53:08.234+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:08.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:53:08.237+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:08.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:08.261+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:08.261+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:53:08.264+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:08.293+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:08.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:53:08.313+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:08.312+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-30 00:00:00+00:00, run_after=2025-12-31 00:00:00+00:00
+[2025-12-31T10:53:08.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.100 seconds
+[2025-12-31T10:53:38.587+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:38.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:53:38.591+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:38.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:38.622+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:38.622+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:53:38.625+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:53:38.657+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:38.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:53:38.687+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:53:38.687+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:53:38.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.130 seconds
+[2025-12-31T10:54:09.020+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:09.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:54:09.026+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:09.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:09.079+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:09.079+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:54:09.086+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:09.159+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:09.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:54:09.209+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:09.208+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:54:09.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.244 seconds
+[2025-12-31T10:54:39.536+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:39.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:54:39.539+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:39.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:39.564+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:39.564+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:54:39.566+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:54:39.592+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:39.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:54:39.613+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:54:39.613+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:54:39.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.100 seconds
+[2025-12-31T10:55:09.762+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:09.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:55:09.764+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:09.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:09.792+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:09.792+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:55:09.796+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:09.825+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:09.824+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:55:09.853+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:09.852+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:55:09.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.122 seconds
+[2025-12-31T10:55:40.161+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:40.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:55:40.170+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:40.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:40.194+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:40.193+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:55:40.196+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:55:40.219+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:40.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:55:40.237+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:55:40.237+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:55:40.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.101 seconds
+[2025-12-31T10:56:10.443+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:10.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:56:10.448+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:10.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:10.475+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:10.475+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:56:10.478+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:10.504+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:10.504+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:56:10.528+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:10.528+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:56:10.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.113 seconds
+[2025-12-31T10:56:40.698+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:40.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:56:40.701+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:40.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:40.720+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:40.720+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:56:40.722+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:56:40.745+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:40.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:56:40.767+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:56:40.767+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:56:40.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.089 seconds
+[2025-12-31T10:57:11.182+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:11.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:57:11.188+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:11.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:11.242+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:11.242+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:57:11.248+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:11.320+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:11.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:57:11.391+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:11.390+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:57:11.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.276 seconds
+[2025-12-31T10:57:41.700+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:41.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:57:41.703+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:41.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:41.722+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:41.722+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:57:41.724+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:57:41.752+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:41.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:57:41.780+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:57:41.780+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:57:41.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.109 seconds
+[2025-12-31T10:58:12.040+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:12.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:58:12.044+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:12.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:12.085+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:12.085+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:58:12.089+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:12.131+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:12.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:58:12.183+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:12.182+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:58:12.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.183 seconds
+[2025-12-31T10:58:42.408+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:42.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:58:42.411+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:42.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:42.435+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:42.435+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:58:42.437+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:58:42.467+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:42.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:58:42.490+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:58:42.489+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:58:42.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.110 seconds
+[2025-12-31T10:59:12.765+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:12.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:59:12.767+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:12.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:12.793+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:12.793+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:59:12.796+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:12.825+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:12.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:59:12.847+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:12.846+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:59:12.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.112 seconds
+[2025-12-31T10:59:43.049+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:43.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T10:59:43.052+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:43.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:43.082+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:43.082+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T10:59:43.084+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T10:59:43.109+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:43.108+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T10:59:43.130+0000] {logging_mixin.py:188} INFO - [2025-12-31T10:59:43.129+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T10:59:43.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.106 seconds
+[2025-12-31T11:00:13.457+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:13.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:00:13.462+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:13.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:13.501+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:13.501+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:00:13.505+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:13.550+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:13.549+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:00:13.584+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:13.584+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:00:13.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.162 seconds
+[2025-12-31T11:00:43.735+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:43.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:00:43.738+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:43.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:43.757+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:43.757+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:00:43.759+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:00:43.782+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:43.782+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:00:43.804+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:00:43.804+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:00:43.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.095 seconds
+[2025-12-31T11:01:14.054+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:14.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:01:14.059+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:14.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:14.099+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:14.098+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:01:14.103+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:14.187+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:14.186+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:01:14.238+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:14.237+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:01:14.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.232 seconds
+[2025-12-31T11:01:44.383+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:44.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:01:44.387+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:44.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:44.428+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:44.427+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:01:44.431+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:01:44.474+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:44.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:01:44.509+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:01:44.509+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:01:44.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.168 seconds
+[2025-12-31T11:02:14.846+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:14.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:02:14.848+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:14.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:14.868+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:14.868+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:02:14.871+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:14.895+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:14.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:02:14.916+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:14.916+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:02:14.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.093 seconds
+[2025-12-31T11:02:45.191+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:45.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:02:45.194+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:45.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:45.225+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:45.225+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:02:45.228+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:02:45.255+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:45.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:02:45.276+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:02:45.276+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:02:45.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.113 seconds
+[2025-12-31T11:03:15.428+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:15.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:03:15.430+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:15.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:15.449+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:15.449+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:03:15.452+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:15.478+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:15.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:03:15.502+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:15.502+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:03:15.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.112 seconds
+[2025-12-31T11:03:45.737+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:45.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:03:45.740+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:45.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:45.760+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:45.759+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:03:45.762+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:03:45.786+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:45.786+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:03:45.808+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:03:45.808+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:03:45.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.097 seconds
+[2025-12-31T11:04:16.024+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:16.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:04:16.028+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:16.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:16.062+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:16.062+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:04:16.066+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:16.104+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:16.104+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:04:16.137+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:16.137+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:04:16.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.145 seconds
+[2025-12-31T11:04:46.333+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:46.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/co2_databricks_etl_dag.py for tasks to queue
+[2025-12-31T11:04:46.335+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:46.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:46.356+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:46.356+0000] {co2_databricks_etl_dag.py:34} INFO - Starting CO₂ Emissions ETL DAG
+[2025-12-31T11:04:46.359+0000] {processor.py:840} INFO - DAG(s) 'co2_emissions_databricks_etl' retrieved from /opt/airflow/dags/co2_databricks_etl_dag.py
+[2025-12-31T11:04:46.386+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:46.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-31T11:04:46.407+0000] {logging_mixin.py:188} INFO - [2025-12-31T11:04:46.407+0000] {dag.py:3823} INFO - Setting next_dagrun for co2_emissions_databricks_etl to 2025-12-31 00:00:00+00:00, run_after=2026-01-01 00:00:00+00:00
+[2025-12-31T11:04:46.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/co2_databricks_etl_dag.py took 0.102 seconds
